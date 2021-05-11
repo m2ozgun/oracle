@@ -20,7 +20,7 @@ interface IOracle {
 }
 
 contract Oracle is IOracle, Ownable {
-    mapping(address => bool) scouts;
+    mapping(address => bool) public scouts;
     mapping(bytes32 => Observation) observations;
 
     modifier ownerOrScout() {
