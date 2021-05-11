@@ -26,7 +26,8 @@ async function fetchData() {
     })
 
   console.log('Price from API:', price)
-  await oracleInstance.updateData(DUMMY_BYTES32, Math.round(price), {
+  const priceInCents = price * 100
+  await oracleInstance.updateData(DUMMY_BYTES32, priceInCents, {
     from: accounts[0],
   })
 
