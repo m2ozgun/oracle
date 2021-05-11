@@ -36,6 +36,7 @@ contract('Oracle Contract', accounts => {
         it('should update data', async () => {
             await expect(oracle.updateData(DUMMY_BYTES32, 1)).to.be.fulfilled
         })
+
         it('should not update data if not scout', async () => {
             await expect(oracle.updateData(DUMMY_BYTES32, 1, { from: accounts[2]})).to.be.rejectedWith(/not the owner or a scout/)
         })
@@ -47,6 +48,7 @@ contract('Oracle Contract', accounts => {
             const res = await oracle.getData(DUMMY_BYTES32)
             await expect(res.data).to.be.a.bignumber.equal(new BN(1))
         })
+        
         it('should not get data if key does not exist', async () => {
             await expect(oracle.getData(DUMMY_BYTES32)).to.be.rejectedWith(/key does not exist/)
         })

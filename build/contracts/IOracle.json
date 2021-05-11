@@ -62,7 +62,7 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"_key\",\"type\":\"bytes32\"}],\"name\":\"getData\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"timestamp\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"data\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"_key\",\"type\":\"bytes32\"},{\"internalType\":\"uint256\",\"name\":\"_observation\",\"type\":\"uint256\"}],\"name\":\"updateData\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_scout\",\"type\":\"address\"},{\"internalType\":\"bool\",\"name\":\"_isScout\",\"type\":\"bool\"}],\"name\":\"updateScoutStatus\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/mertozgun/dev/m2ozgun/oracle/contracts/Oracle.sol\":\"IOracle\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/mertozgun/dev/m2ozgun/oracle/contracts/Oracle.sol\":{\"keccak256\":\"0x54c3d18f0fb76d79f5cdd81e64d70c5acf92d5c5ab8c56381769ffdc0e54ffaa\",\"urls\":[\"bzz-raw://52246a73dbf5019652c970fc074af84ac0984a307fca048373f7037562dabf70\",\"dweb:/ipfs/QmWomsVZcPejmeUoQoaDbzSAD9sz6nDJCsLYY7AfbYFnB4\"]},\"@openzeppelin/contracts/access/Ownable.sol\":{\"keccak256\":\"0x1cae4f85f114ff17b90414f5da67365b1d00337abb5bce9bf944eb78a2c0673c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d5ff16b336ce8f906478d5f2eecc6435e00833bdc0b92f6b209cf9e92cb5b2b7\",\"dweb:/ipfs/QmRD1rAZEqQ73C33cdA3QoUyBDMEWnNKNMc6PNkAZWHeQQ\"]},\"@openzeppelin/contracts/utils/Context.sol\":{\"keccak256\":\"0xf930d2df426bfcfc1f7415be724f04081c96f4fb9ec8d0e3a521c07692dface0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://fc2bfdea0d2562c76fb3c4cf70a86c6ba25c5a30e8f8515c95aafdf8383f8395\",\"dweb:/ipfs/QmTbFya18786ckJfLYUoWau9jBTKfmWnWm5XSViWvB7PXN\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"_key\",\"type\":\"bytes32\"}],\"name\":\"getData\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"timestamp\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"data\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"_key\",\"type\":\"bytes32\"},{\"internalType\":\"uint256\",\"name\":\"_observation\",\"type\":\"uint256\"}],\"name\":\"updateData\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_scout\",\"type\":\"address\"},{\"internalType\":\"bool\",\"name\":\"_isScout\",\"type\":\"bool\"}],\"name\":\"updateScoutStatus\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/mertozgun/dev/m2ozgun/oracle/contracts/Oracle.sol\":\"IOracle\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/mertozgun/dev/m2ozgun/oracle/contracts/Oracle.sol\":{\"keccak256\":\"0x4dec3dc4937566ef143da322f43c156cc612d49856591ed6a1c77b5bb1dc454b\",\"urls\":[\"bzz-raw://2e1c0da065c04997a81a98557ef911d4b2dac6b3cb782a8aa1fa4048b349b753\",\"dweb:/ipfs/Qma81nPniKrtMrbigE2muDisRmnWRvxnRPaUrSCFNDvNkZ\"]},\"@openzeppelin/contracts/access/Ownable.sol\":{\"keccak256\":\"0x1cae4f85f114ff17b90414f5da67365b1d00337abb5bce9bf944eb78a2c0673c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d5ff16b336ce8f906478d5f2eecc6435e00833bdc0b92f6b209cf9e92cb5b2b7\",\"dweb:/ipfs/QmRD1rAZEqQ73C33cdA3QoUyBDMEWnNKNMc6PNkAZWHeQQ\"]},\"@openzeppelin/contracts/utils/Context.sol\":{\"keccak256\":\"0xf930d2df426bfcfc1f7415be724f04081c96f4fb9ec8d0e3a521c07692dface0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://fc2bfdea0d2562c76fb3c4cf70a86c6ba25c5a30e8f8515c95aafdf8383f8395\",\"dweb:/ipfs/QmTbFya18786ckJfLYUoWau9jBTKfmWnWm5XSViWvB7PXN\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
@@ -70,7 +70,7 @@
   "deployedGeneratedSources": [],
   "sourceMap": "",
   "deployedSourceMap": "",
-  "source": "pragma solidity 0.8.4;\n\nimport \"@openzeppelin/contracts/access/Ownable.sol\";\n\ninterface IOracle {\n    struct Observation {\n        address scout;\n        uint256 timestamp;\n        uint256 data;\n    }\n\n    function updateScoutStatus(address _scout, bool _isScout) external;\n\n    function updateData(bytes32 _key, uint256 _observation) external;\n\n    function getData(bytes32 _key)\n        external\n        view\n        returns (uint256 timestamp, uint256 data);\n}\n\ncontract Oracle is IOracle, Ownable {\n    mapping(address => bool) scouts;\n    mapping(bytes32 => Observation) observations;\n\n    modifier ownerOrScout() {\n        require(\n            scouts[msg.sender] == true || msg.sender == owner(),\n            \"you are not the owner or a scout\"\n        );\n        _;\n    }\n\n    function updateScoutStatus(address _scout, bool _isScout)\n        external\n        override\n        onlyOwner\n    {\n        scouts[_scout] = _isScout;\n    }\n\n    function updateData(bytes32 _key, uint256 _observation)\n        external\n        override\n        ownerOrScout\n    {\n        observations[_key] = Observation(\n            msg.sender,\n            block.timestamp,\n            _observation\n        );\n    }\n\n    function getData(bytes32 _key)\n        external\n        view\n        override\n        returns (uint256 timestamp, uint256 data)\n    {\n        require(\n            observations[_key].timestamp != 0,\n            \"data with the given key does not exist\"\n        );\n        return (observations[_key].timestamp, observations[_key].data);\n    }\n}\n",
+  "source": "pragma solidity 0.8.4;\n\nimport \"@openzeppelin/contracts/access/Ownable.sol\";\n\ninterface IOracle {\n    struct Observation {\n        address scout;\n        uint256 timestamp;\n        uint256 data;\n    }\n\n    function updateScoutStatus(address _scout, bool _isScout) external;\n\n    function updateData(bytes32 _key, uint256 _observation) external;\n\n    function getData(bytes32 _key)\n        external\n        view\n        returns (uint256 timestamp, uint256 data);\n}\n\ncontract Oracle is IOracle, Ownable {\n    mapping(address => bool) public scouts;\n    mapping(bytes32 => Observation) observations;\n\n    modifier ownerOrScout() {\n        require(\n            scouts[msg.sender] == true || msg.sender == owner(),\n            \"you are not the owner or a scout\"\n        );\n        _;\n    }\n\n    function updateScoutStatus(address _scout, bool _isScout)\n        external\n        override\n        onlyOwner\n    {\n        scouts[_scout] = _isScout;\n    }\n\n    function updateData(bytes32 _key, uint256 _observation)\n        external\n        override\n        ownerOrScout\n    {\n        observations[_key] = Observation(\n            msg.sender,\n            block.timestamp,\n            _observation\n        );\n    }\n\n    function getData(bytes32 _key)\n        external\n        view\n        override\n        returns (uint256 timestamp, uint256 data)\n    {\n        require(\n            observations[_key].timestamp != 0,\n            \"data with the given key does not exist\"\n        );\n        return (observations[_key].timestamp, observations[_key].data);\n    }\n}\n",
   "sourcePath": "/Users/mertozgun/dev/m2ozgun/oracle/contracts/Oracle.sol",
   "ast": {
     "absolutePath": "/Users/mertozgun/dev/m2ozgun/oracle/contracts/Oracle.sol",
@@ -545,13 +545,14 @@
         "nodes": [
           {
             "constant": false,
+            "functionSelector": "640e2dfb",
             "id": 41,
             "mutability": "mutable",
             "name": "scouts",
-            "nameLocation": "532:6:0",
+            "nameLocation": "539:6:0",
             "nodeType": "VariableDeclaration",
             "scope": 138,
-            "src": "507:31:0",
+            "src": "507:38:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -587,17 +588,17 @@
                 }
               }
             },
-            "visibility": "internal"
+            "visibility": "public"
           },
           {
             "constant": false,
             "id": 46,
             "mutability": "mutable",
             "name": "observations",
-            "nameLocation": "576:12:0",
+            "nameLocation": "583:12:0",
             "nodeType": "VariableDeclaration",
             "scope": 138,
-            "src": "544:44:0",
+            "src": "551:44:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -610,14 +611,14 @@
                 "id": 42,
                 "name": "bytes32",
                 "nodeType": "ElementaryTypeName",
-                "src": "552:7:0",
+                "src": "559:7:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_bytes32",
                   "typeString": "bytes32"
                 }
               },
               "nodeType": "Mapping",
-              "src": "544:31:0",
+              "src": "551:31:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_Observation_$9_storage_$",
                 "typeString": "mapping(bytes32 => struct IOracle.Observation)"
@@ -630,10 +631,10 @@
                   "name": "Observation",
                   "nodeType": "IdentifierPath",
                   "referencedDeclaration": 9,
-                  "src": "563:11:0"
+                  "src": "570:11:0"
                 },
                 "referencedDeclaration": 9,
-                "src": "563:11:0",
+                "src": "570:11:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_struct$_Observation_$9_storage_ptr",
                   "typeString": "struct IOracle.Observation"
@@ -646,7 +647,7 @@
             "body": {
               "id": 65,
               "nodeType": "Block",
-              "src": "619:158:0",
+              "src": "626:158:0",
               "statements": [
                 {
                   "expression": {
@@ -678,7 +679,7 @@
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 41,
-                              "src": "650:6:0",
+                              "src": "657:6:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
                                 "typeString": "mapping(address => bool)"
@@ -692,7 +693,7 @@
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
                                 "referencedDeclaration": 4294967281,
-                                "src": "657:3:0",
+                                "src": "664:3:0",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
                                   "typeString": "msg"
@@ -705,7 +706,7 @@
                               "lValueRequested": false,
                               "memberName": "sender",
                               "nodeType": "MemberAccess",
-                              "src": "657:10:0",
+                              "src": "664:10:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_address",
                                 "typeString": "address"
@@ -716,7 +717,7 @@
                             "isPure": false,
                             "lValueRequested": false,
                             "nodeType": "IndexAccess",
-                            "src": "650:18:0",
+                            "src": "657:18:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bool",
                               "typeString": "bool"
@@ -733,14 +734,14 @@
                             "kind": "bool",
                             "lValueRequested": false,
                             "nodeType": "Literal",
-                            "src": "672:4:0",
+                            "src": "679:4:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bool",
                               "typeString": "bool"
                             },
                             "value": "true"
                           },
-                          "src": "650:26:0",
+                          "src": "657:26:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
@@ -765,7 +766,7 @@
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 4294967281,
-                              "src": "680:3:0",
+                              "src": "687:3:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
                                 "typeString": "msg"
@@ -778,7 +779,7 @@
                             "lValueRequested": false,
                             "memberName": "sender",
                             "nodeType": "MemberAccess",
-                            "src": "680:10:0",
+                            "src": "687:10:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -795,7 +796,7 @@
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 183,
-                              "src": "694:5:0",
+                              "src": "701:5:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
                                 "typeString": "function () view returns (address)"
@@ -809,20 +810,20 @@
                             "lValueRequested": false,
                             "names": [],
                             "nodeType": "FunctionCall",
-                            "src": "694:7:0",
+                            "src": "701:7:0",
                             "tryCall": false,
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
                             }
                           },
-                          "src": "680:21:0",
+                          "src": "687:21:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
                           }
                         },
-                        "src": "650:51:0",
+                        "src": "657:51:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -837,7 +838,7 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "715:34:0",
+                        "src": "722:34:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_0991d557951dbb089645585cae80bb8261804728dd243ce943a7996824cb29de",
                           "typeString": "literal_string \"you are not the owner or a scout\""
@@ -864,7 +865,7 @@
                         4294967278
                       ],
                       "referencedDeclaration": 4294967278,
-                      "src": "629:7:0",
+                      "src": "636:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
@@ -878,7 +879,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "629:130:0",
+                    "src": "636:130:0",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
@@ -887,26 +888,26 @@
                   },
                   "id": 63,
                   "nodeType": "ExpressionStatement",
-                  "src": "629:130:0"
+                  "src": "636:130:0"
                 },
                 {
                   "id": 64,
                   "nodeType": "PlaceholderStatement",
-                  "src": "769:1:0"
+                  "src": "776:1:0"
                 }
               ]
             },
             "id": 66,
             "name": "ownerOrScout",
-            "nameLocation": "604:12:0",
+            "nameLocation": "611:12:0",
             "nodeType": "ModifierDefinition",
             "parameters": {
               "id": 47,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "616:2:0"
+              "src": "623:2:0"
             },
-            "src": "595:182:0",
+            "src": "602:182:0",
             "virtual": false,
             "visibility": "internal"
           },
@@ -917,7 +918,7 @@
             "body": {
               "id": 82,
               "nodeType": "Block",
-              "src": "897:42:0",
+              "src": "904:42:0",
               "statements": [
                 {
                   "expression": {
@@ -933,7 +934,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 41,
-                        "src": "907:6:0",
+                        "src": "914:6:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
                           "typeString": "mapping(address => bool)"
@@ -946,7 +947,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 68,
-                        "src": "914:6:0",
+                        "src": "921:6:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -957,7 +958,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "907:14:0",
+                      "src": "914:14:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
@@ -971,13 +972,13 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 70,
-                      "src": "924:8:0",
+                      "src": "931:8:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
                       }
                     },
-                    "src": "907:25:0",
+                    "src": "914:25:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -985,7 +986,7 @@
                   },
                   "id": 81,
                   "nodeType": "ExpressionStatement",
-                  "src": "907:25:0"
+                  "src": "914:25:0"
                 }
               ]
             },
@@ -1002,20 +1003,20 @@
                   "name": "onlyOwner",
                   "nodeType": "IdentifierPath",
                   "referencedDeclaration": 197,
-                  "src": "883:9:0"
+                  "src": "890:9:0"
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "883:9:0"
+                "src": "890:9:0"
               }
             ],
             "name": "updateScoutStatus",
-            "nameLocation": "792:17:0",
+            "nameLocation": "799:17:0",
             "nodeType": "FunctionDefinition",
             "overrides": {
               "id": 72,
               "nodeType": "OverrideSpecifier",
               "overrides": [],
-              "src": "866:8:0"
+              "src": "873:8:0"
             },
             "parameters": {
               "id": 71,
@@ -1026,10 +1027,10 @@
                   "id": 68,
                   "mutability": "mutable",
                   "name": "_scout",
-                  "nameLocation": "818:6:0",
+                  "nameLocation": "825:6:0",
                   "nodeType": "VariableDeclaration",
                   "scope": 83,
-                  "src": "810:14:0",
+                  "src": "817:14:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1040,7 +1041,7 @@
                     "id": 67,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "810:7:0",
+                    "src": "817:7:0",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1054,10 +1055,10 @@
                   "id": 70,
                   "mutability": "mutable",
                   "name": "_isScout",
-                  "nameLocation": "831:8:0",
+                  "nameLocation": "838:8:0",
                   "nodeType": "VariableDeclaration",
                   "scope": 83,
-                  "src": "826:13:0",
+                  "src": "833:13:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1068,7 +1069,7 @@
                     "id": 69,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "826:4:0",
+                    "src": "833:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1077,16 +1078,16 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "809:31:0"
+              "src": "816:31:0"
             },
             "returnParameters": {
               "id": 75,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "897:0:0"
+              "src": "904:0:0"
             },
             "scope": 138,
-            "src": "783:156:0",
+            "src": "790:156:0",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
@@ -1098,7 +1099,7 @@
             "body": {
               "id": 105,
               "nodeType": "Block",
-              "src": "1060:138:0",
+              "src": "1067:138:0",
               "statements": [
                 {
                   "expression": {
@@ -1114,7 +1115,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 46,
-                        "src": "1070:12:0",
+                        "src": "1077:12:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_Observation_$9_storage_$",
                           "typeString": "mapping(bytes32 => struct IOracle.Observation storage ref)"
@@ -1127,7 +1128,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 85,
-                        "src": "1083:4:0",
+                        "src": "1090:4:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
                           "typeString": "bytes32"
@@ -1138,7 +1139,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "1070:18:0",
+                      "src": "1077:18:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Observation_$9_storage",
                         "typeString": "struct IOracle.Observation storage ref"
@@ -1155,7 +1156,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 4294967281,
-                            "src": "1116:3:0",
+                            "src": "1123:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
@@ -1168,7 +1169,7 @@
                           "lValueRequested": false,
                           "memberName": "sender",
                           "nodeType": "MemberAccess",
-                          "src": "1116:10:0",
+                          "src": "1123:10:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -1181,7 +1182,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 4294967292,
-                            "src": "1140:5:0",
+                            "src": "1147:5:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_block",
                               "typeString": "block"
@@ -1194,7 +1195,7 @@
                           "lValueRequested": false,
                           "memberName": "timestamp",
                           "nodeType": "MemberAccess",
-                          "src": "1140:15:0",
+                          "src": "1147:15:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -1206,7 +1207,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 87,
-                          "src": "1169:12:0",
+                          "src": "1176:12:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -1233,7 +1234,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 9,
-                        "src": "1091:11:0",
+                        "src": "1098:11:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_type$_t_struct$_Observation_$9_storage_ptr_$",
                           "typeString": "type(struct IOracle.Observation storage pointer)"
@@ -1247,14 +1248,14 @@
                       "lValueRequested": false,
                       "names": [],
                       "nodeType": "FunctionCall",
-                      "src": "1091:100:0",
+                      "src": "1098:100:0",
                       "tryCall": false,
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Observation_$9_memory_ptr",
                         "typeString": "struct IOracle.Observation memory"
                       }
                     },
-                    "src": "1070:121:0",
+                    "src": "1077:121:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Observation_$9_storage",
                       "typeString": "struct IOracle.Observation storage ref"
@@ -1262,7 +1263,7 @@
                   },
                   "id": 104,
                   "nodeType": "ExpressionStatement",
-                  "src": "1070:121:0"
+                  "src": "1077:121:0"
                 }
               ]
             },
@@ -1279,20 +1280,20 @@
                   "name": "ownerOrScout",
                   "nodeType": "IdentifierPath",
                   "referencedDeclaration": 66,
-                  "src": "1043:12:0"
+                  "src": "1050:12:0"
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "1043:12:0"
+                "src": "1050:12:0"
               }
             ],
             "name": "updateData",
-            "nameLocation": "954:10:0",
+            "nameLocation": "961:10:0",
             "nodeType": "FunctionDefinition",
             "overrides": {
               "id": 89,
               "nodeType": "OverrideSpecifier",
               "overrides": [],
-              "src": "1026:8:0"
+              "src": "1033:8:0"
             },
             "parameters": {
               "id": 88,
@@ -1303,10 +1304,10 @@
                   "id": 85,
                   "mutability": "mutable",
                   "name": "_key",
-                  "nameLocation": "973:4:0",
+                  "nameLocation": "980:4:0",
                   "nodeType": "VariableDeclaration",
                   "scope": 106,
-                  "src": "965:12:0",
+                  "src": "972:12:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1317,7 +1318,7 @@
                     "id": 84,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "965:7:0",
+                    "src": "972:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1330,10 +1331,10 @@
                   "id": 87,
                   "mutability": "mutable",
                   "name": "_observation",
-                  "nameLocation": "987:12:0",
+                  "nameLocation": "994:12:0",
                   "nodeType": "VariableDeclaration",
                   "scope": 106,
-                  "src": "979:20:0",
+                  "src": "986:20:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1344,7 +1345,7 @@
                     "id": 86,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "979:7:0",
+                    "src": "986:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1353,16 +1354,16 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "964:36:0"
+              "src": "971:36:0"
             },
             "returnParameters": {
               "id": 92,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1060:0:0"
+              "src": "1067:0:0"
             },
             "scope": 138,
-            "src": "945:253:0",
+            "src": "952:253:0",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
@@ -1374,7 +1375,7 @@
             "body": {
               "id": 136,
               "nodeType": "Block",
-              "src": "1336:207:0",
+              "src": "1343:207:0",
               "statements": [
                 {
                   "expression": {
@@ -1397,7 +1398,7 @@
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 46,
-                              "src": "1367:12:0",
+                              "src": "1374:12:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_Observation_$9_storage_$",
                                 "typeString": "mapping(bytes32 => struct IOracle.Observation storage ref)"
@@ -1410,7 +1411,7 @@
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 108,
-                              "src": "1380:4:0",
+                              "src": "1387:4:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_bytes32",
                                 "typeString": "bytes32"
@@ -1421,7 +1422,7 @@
                             "isPure": false,
                             "lValueRequested": false,
                             "nodeType": "IndexAccess",
-                            "src": "1367:18:0",
+                            "src": "1374:18:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_struct$_Observation_$9_storage",
                               "typeString": "struct IOracle.Observation storage ref"
@@ -1435,7 +1436,7 @@
                           "memberName": "timestamp",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": 6,
-                          "src": "1367:28:0",
+                          "src": "1374:28:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -1452,14 +1453,14 @@
                           "kind": "number",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "1399:1:0",
+                          "src": "1406:1:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_rational_0_by_1",
                             "typeString": "int_const 0"
                           },
                           "value": "0"
                         },
-                        "src": "1367:33:0",
+                        "src": "1374:33:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -1474,7 +1475,7 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "1414:40:0",
+                        "src": "1421:40:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_2d0663de7e0af5a64c459eb3bb4926a4b1f787ab428383285f89f8dbdf620cc7",
                           "typeString": "literal_string \"data with the given key does not exist\""
@@ -1501,7 +1502,7 @@
                         4294967278
                       ],
                       "referencedDeclaration": 4294967278,
-                      "src": "1346:7:0",
+                      "src": "1353:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
@@ -1515,7 +1516,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1346:118:0",
+                    "src": "1353:118:0",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
@@ -1524,7 +1525,7 @@
                   },
                   "id": 125,
                   "nodeType": "ExpressionStatement",
-                  "src": "1346:118:0"
+                  "src": "1353:118:0"
                 },
                 {
                   "expression": {
@@ -1537,7 +1538,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 46,
-                            "src": "1482:12:0",
+                            "src": "1489:12:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_Observation_$9_storage_$",
                               "typeString": "mapping(bytes32 => struct IOracle.Observation storage ref)"
@@ -1550,7 +1551,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 108,
-                            "src": "1495:4:0",
+                            "src": "1502:4:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
                               "typeString": "bytes32"
@@ -1561,7 +1562,7 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "nodeType": "IndexAccess",
-                          "src": "1482:18:0",
+                          "src": "1489:18:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Observation_$9_storage",
                             "typeString": "struct IOracle.Observation storage ref"
@@ -1575,7 +1576,7 @@
                         "memberName": "timestamp",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": 6,
-                        "src": "1482:28:0",
+                        "src": "1489:28:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1589,7 +1590,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 46,
-                            "src": "1512:12:0",
+                            "src": "1519:12:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_Observation_$9_storage_$",
                               "typeString": "mapping(bytes32 => struct IOracle.Observation storage ref)"
@@ -1602,7 +1603,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 108,
-                            "src": "1525:4:0",
+                            "src": "1532:4:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
                               "typeString": "bytes32"
@@ -1613,7 +1614,7 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "nodeType": "IndexAccess",
-                          "src": "1512:18:0",
+                          "src": "1519:18:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Observation_$9_storage",
                             "typeString": "struct IOracle.Observation storage ref"
@@ -1627,7 +1628,7 @@
                         "memberName": "data",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": 8,
-                        "src": "1512:23:0",
+                        "src": "1519:23:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1641,7 +1642,7 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "TupleExpression",
-                    "src": "1481:55:0",
+                    "src": "1488:55:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$_t_uint256_$_t_uint256_$",
                       "typeString": "tuple(uint256,uint256)"
@@ -1650,7 +1651,7 @@
                   "functionReturnParameters": 115,
                   "id": 135,
                   "nodeType": "Return",
-                  "src": "1474:62:0"
+                  "src": "1481:62:0"
                 }
               ]
             },
@@ -1660,13 +1661,13 @@
             "kind": "function",
             "modifiers": [],
             "name": "getData",
-            "nameLocation": "1213:7:0",
+            "nameLocation": "1220:7:0",
             "nodeType": "FunctionDefinition",
             "overrides": {
               "id": 110,
               "nodeType": "OverrideSpecifier",
               "overrides": [],
-              "src": "1273:8:0"
+              "src": "1280:8:0"
             },
             "parameters": {
               "id": 109,
@@ -1677,10 +1678,10 @@
                   "id": 108,
                   "mutability": "mutable",
                   "name": "_key",
-                  "nameLocation": "1229:4:0",
+                  "nameLocation": "1236:4:0",
                   "nodeType": "VariableDeclaration",
                   "scope": 137,
-                  "src": "1221:12:0",
+                  "src": "1228:12:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1691,7 +1692,7 @@
                     "id": 107,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1221:7:0",
+                    "src": "1228:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1700,7 +1701,7 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1220:14:0"
+              "src": "1227:14:0"
             },
             "returnParameters": {
               "id": 115,
@@ -1711,10 +1712,10 @@
                   "id": 112,
                   "mutability": "mutable",
                   "name": "timestamp",
-                  "nameLocation": "1307:9:0",
+                  "nameLocation": "1314:9:0",
                   "nodeType": "VariableDeclaration",
                   "scope": 137,
-                  "src": "1299:17:0",
+                  "src": "1306:17:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1725,7 +1726,7 @@
                     "id": 111,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1299:7:0",
+                    "src": "1306:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1738,10 +1739,10 @@
                   "id": 114,
                   "mutability": "mutable",
                   "name": "data",
-                  "nameLocation": "1326:4:0",
+                  "nameLocation": "1333:4:0",
                   "nodeType": "VariableDeclaration",
                   "scope": 137,
-                  "src": "1318:12:0",
+                  "src": "1325:12:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1752,7 +1753,7 @@
                     "id": 113,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1318:7:0",
+                    "src": "1325:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1761,21 +1762,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1298:33:0"
+              "src": "1305:33:0"
             },
             "scope": 138,
-            "src": "1204:339:0",
+            "src": "1211:339:0",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
         "scope": 139,
-        "src": "465:1080:0",
+        "src": "465:1087:0",
         "usedErrors": []
       }
     ],
-    "src": "0:1546:0"
+    "src": "0:1553:0"
   },
   "legacyAST": {
     "absolutePath": "/Users/mertozgun/dev/m2ozgun/oracle/contracts/Oracle.sol",
@@ -2250,13 +2251,14 @@
         "nodes": [
           {
             "constant": false,
+            "functionSelector": "640e2dfb",
             "id": 41,
             "mutability": "mutable",
             "name": "scouts",
-            "nameLocation": "532:6:0",
+            "nameLocation": "539:6:0",
             "nodeType": "VariableDeclaration",
             "scope": 138,
-            "src": "507:31:0",
+            "src": "507:38:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -2292,17 +2294,17 @@
                 }
               }
             },
-            "visibility": "internal"
+            "visibility": "public"
           },
           {
             "constant": false,
             "id": 46,
             "mutability": "mutable",
             "name": "observations",
-            "nameLocation": "576:12:0",
+            "nameLocation": "583:12:0",
             "nodeType": "VariableDeclaration",
             "scope": 138,
-            "src": "544:44:0",
+            "src": "551:44:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -2315,14 +2317,14 @@
                 "id": 42,
                 "name": "bytes32",
                 "nodeType": "ElementaryTypeName",
-                "src": "552:7:0",
+                "src": "559:7:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_bytes32",
                   "typeString": "bytes32"
                 }
               },
               "nodeType": "Mapping",
-              "src": "544:31:0",
+              "src": "551:31:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_Observation_$9_storage_$",
                 "typeString": "mapping(bytes32 => struct IOracle.Observation)"
@@ -2335,10 +2337,10 @@
                   "name": "Observation",
                   "nodeType": "IdentifierPath",
                   "referencedDeclaration": 9,
-                  "src": "563:11:0"
+                  "src": "570:11:0"
                 },
                 "referencedDeclaration": 9,
-                "src": "563:11:0",
+                "src": "570:11:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_struct$_Observation_$9_storage_ptr",
                   "typeString": "struct IOracle.Observation"
@@ -2351,7 +2353,7 @@
             "body": {
               "id": 65,
               "nodeType": "Block",
-              "src": "619:158:0",
+              "src": "626:158:0",
               "statements": [
                 {
                   "expression": {
@@ -2383,7 +2385,7 @@
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 41,
-                              "src": "650:6:0",
+                              "src": "657:6:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
                                 "typeString": "mapping(address => bool)"
@@ -2397,7 +2399,7 @@
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
                                 "referencedDeclaration": 4294967281,
-                                "src": "657:3:0",
+                                "src": "664:3:0",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
                                   "typeString": "msg"
@@ -2410,7 +2412,7 @@
                               "lValueRequested": false,
                               "memberName": "sender",
                               "nodeType": "MemberAccess",
-                              "src": "657:10:0",
+                              "src": "664:10:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_address",
                                 "typeString": "address"
@@ -2421,7 +2423,7 @@
                             "isPure": false,
                             "lValueRequested": false,
                             "nodeType": "IndexAccess",
-                            "src": "650:18:0",
+                            "src": "657:18:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bool",
                               "typeString": "bool"
@@ -2438,14 +2440,14 @@
                             "kind": "bool",
                             "lValueRequested": false,
                             "nodeType": "Literal",
-                            "src": "672:4:0",
+                            "src": "679:4:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bool",
                               "typeString": "bool"
                             },
                             "value": "true"
                           },
-                          "src": "650:26:0",
+                          "src": "657:26:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
@@ -2470,7 +2472,7 @@
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 4294967281,
-                              "src": "680:3:0",
+                              "src": "687:3:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
                                 "typeString": "msg"
@@ -2483,7 +2485,7 @@
                             "lValueRequested": false,
                             "memberName": "sender",
                             "nodeType": "MemberAccess",
-                            "src": "680:10:0",
+                            "src": "687:10:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -2500,7 +2502,7 @@
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 183,
-                              "src": "694:5:0",
+                              "src": "701:5:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_view$__$returns$_t_address_$",
                                 "typeString": "function () view returns (address)"
@@ -2514,20 +2516,20 @@
                             "lValueRequested": false,
                             "names": [],
                             "nodeType": "FunctionCall",
-                            "src": "694:7:0",
+                            "src": "701:7:0",
                             "tryCall": false,
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
                             }
                           },
-                          "src": "680:21:0",
+                          "src": "687:21:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
                           }
                         },
-                        "src": "650:51:0",
+                        "src": "657:51:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -2542,7 +2544,7 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "715:34:0",
+                        "src": "722:34:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_0991d557951dbb089645585cae80bb8261804728dd243ce943a7996824cb29de",
                           "typeString": "literal_string \"you are not the owner or a scout\""
@@ -2569,7 +2571,7 @@
                         4294967278
                       ],
                       "referencedDeclaration": 4294967278,
-                      "src": "629:7:0",
+                      "src": "636:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
@@ -2583,7 +2585,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "629:130:0",
+                    "src": "636:130:0",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
@@ -2592,26 +2594,26 @@
                   },
                   "id": 63,
                   "nodeType": "ExpressionStatement",
-                  "src": "629:130:0"
+                  "src": "636:130:0"
                 },
                 {
                   "id": 64,
                   "nodeType": "PlaceholderStatement",
-                  "src": "769:1:0"
+                  "src": "776:1:0"
                 }
               ]
             },
             "id": 66,
             "name": "ownerOrScout",
-            "nameLocation": "604:12:0",
+            "nameLocation": "611:12:0",
             "nodeType": "ModifierDefinition",
             "parameters": {
               "id": 47,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "616:2:0"
+              "src": "623:2:0"
             },
-            "src": "595:182:0",
+            "src": "602:182:0",
             "virtual": false,
             "visibility": "internal"
           },
@@ -2622,7 +2624,7 @@
             "body": {
               "id": 82,
               "nodeType": "Block",
-              "src": "897:42:0",
+              "src": "904:42:0",
               "statements": [
                 {
                   "expression": {
@@ -2638,7 +2640,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 41,
-                        "src": "907:6:0",
+                        "src": "914:6:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
                           "typeString": "mapping(address => bool)"
@@ -2651,7 +2653,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 68,
-                        "src": "914:6:0",
+                        "src": "921:6:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2662,7 +2664,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "907:14:0",
+                      "src": "914:14:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
@@ -2676,13 +2678,13 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 70,
-                      "src": "924:8:0",
+                      "src": "931:8:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
                       }
                     },
-                    "src": "907:25:0",
+                    "src": "914:25:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -2690,7 +2692,7 @@
                   },
                   "id": 81,
                   "nodeType": "ExpressionStatement",
-                  "src": "907:25:0"
+                  "src": "914:25:0"
                 }
               ]
             },
@@ -2707,20 +2709,20 @@
                   "name": "onlyOwner",
                   "nodeType": "IdentifierPath",
                   "referencedDeclaration": 197,
-                  "src": "883:9:0"
+                  "src": "890:9:0"
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "883:9:0"
+                "src": "890:9:0"
               }
             ],
             "name": "updateScoutStatus",
-            "nameLocation": "792:17:0",
+            "nameLocation": "799:17:0",
             "nodeType": "FunctionDefinition",
             "overrides": {
               "id": 72,
               "nodeType": "OverrideSpecifier",
               "overrides": [],
-              "src": "866:8:0"
+              "src": "873:8:0"
             },
             "parameters": {
               "id": 71,
@@ -2731,10 +2733,10 @@
                   "id": 68,
                   "mutability": "mutable",
                   "name": "_scout",
-                  "nameLocation": "818:6:0",
+                  "nameLocation": "825:6:0",
                   "nodeType": "VariableDeclaration",
                   "scope": 83,
-                  "src": "810:14:0",
+                  "src": "817:14:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2745,7 +2747,7 @@
                     "id": 67,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "810:7:0",
+                    "src": "817:7:0",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -2759,10 +2761,10 @@
                   "id": 70,
                   "mutability": "mutable",
                   "name": "_isScout",
-                  "nameLocation": "831:8:0",
+                  "nameLocation": "838:8:0",
                   "nodeType": "VariableDeclaration",
                   "scope": 83,
-                  "src": "826:13:0",
+                  "src": "833:13:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2773,7 +2775,7 @@
                     "id": 69,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "826:4:0",
+                    "src": "833:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -2782,16 +2784,16 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "809:31:0"
+              "src": "816:31:0"
             },
             "returnParameters": {
               "id": 75,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "897:0:0"
+              "src": "904:0:0"
             },
             "scope": 138,
-            "src": "783:156:0",
+            "src": "790:156:0",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
@@ -2803,7 +2805,7 @@
             "body": {
               "id": 105,
               "nodeType": "Block",
-              "src": "1060:138:0",
+              "src": "1067:138:0",
               "statements": [
                 {
                   "expression": {
@@ -2819,7 +2821,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 46,
-                        "src": "1070:12:0",
+                        "src": "1077:12:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_Observation_$9_storage_$",
                           "typeString": "mapping(bytes32 => struct IOracle.Observation storage ref)"
@@ -2832,7 +2834,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 85,
-                        "src": "1083:4:0",
+                        "src": "1090:4:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
                           "typeString": "bytes32"
@@ -2843,7 +2845,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "1070:18:0",
+                      "src": "1077:18:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Observation_$9_storage",
                         "typeString": "struct IOracle.Observation storage ref"
@@ -2860,7 +2862,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 4294967281,
-                            "src": "1116:3:0",
+                            "src": "1123:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
@@ -2873,7 +2875,7 @@
                           "lValueRequested": false,
                           "memberName": "sender",
                           "nodeType": "MemberAccess",
-                          "src": "1116:10:0",
+                          "src": "1123:10:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -2886,7 +2888,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 4294967292,
-                            "src": "1140:5:0",
+                            "src": "1147:5:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_block",
                               "typeString": "block"
@@ -2899,7 +2901,7 @@
                           "lValueRequested": false,
                           "memberName": "timestamp",
                           "nodeType": "MemberAccess",
-                          "src": "1140:15:0",
+                          "src": "1147:15:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -2911,7 +2913,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 87,
-                          "src": "1169:12:0",
+                          "src": "1176:12:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -2938,7 +2940,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 9,
-                        "src": "1091:11:0",
+                        "src": "1098:11:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_type$_t_struct$_Observation_$9_storage_ptr_$",
                           "typeString": "type(struct IOracle.Observation storage pointer)"
@@ -2952,14 +2954,14 @@
                       "lValueRequested": false,
                       "names": [],
                       "nodeType": "FunctionCall",
-                      "src": "1091:100:0",
+                      "src": "1098:100:0",
                       "tryCall": false,
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Observation_$9_memory_ptr",
                         "typeString": "struct IOracle.Observation memory"
                       }
                     },
-                    "src": "1070:121:0",
+                    "src": "1077:121:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Observation_$9_storage",
                       "typeString": "struct IOracle.Observation storage ref"
@@ -2967,7 +2969,7 @@
                   },
                   "id": 104,
                   "nodeType": "ExpressionStatement",
-                  "src": "1070:121:0"
+                  "src": "1077:121:0"
                 }
               ]
             },
@@ -2984,20 +2986,20 @@
                   "name": "ownerOrScout",
                   "nodeType": "IdentifierPath",
                   "referencedDeclaration": 66,
-                  "src": "1043:12:0"
+                  "src": "1050:12:0"
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "1043:12:0"
+                "src": "1050:12:0"
               }
             ],
             "name": "updateData",
-            "nameLocation": "954:10:0",
+            "nameLocation": "961:10:0",
             "nodeType": "FunctionDefinition",
             "overrides": {
               "id": 89,
               "nodeType": "OverrideSpecifier",
               "overrides": [],
-              "src": "1026:8:0"
+              "src": "1033:8:0"
             },
             "parameters": {
               "id": 88,
@@ -3008,10 +3010,10 @@
                   "id": 85,
                   "mutability": "mutable",
                   "name": "_key",
-                  "nameLocation": "973:4:0",
+                  "nameLocation": "980:4:0",
                   "nodeType": "VariableDeclaration",
                   "scope": 106,
-                  "src": "965:12:0",
+                  "src": "972:12:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3022,7 +3024,7 @@
                     "id": 84,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "965:7:0",
+                    "src": "972:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -3035,10 +3037,10 @@
                   "id": 87,
                   "mutability": "mutable",
                   "name": "_observation",
-                  "nameLocation": "987:12:0",
+                  "nameLocation": "994:12:0",
                   "nodeType": "VariableDeclaration",
                   "scope": 106,
-                  "src": "979:20:0",
+                  "src": "986:20:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3049,7 +3051,7 @@
                     "id": 86,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "979:7:0",
+                    "src": "986:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -3058,16 +3060,16 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "964:36:0"
+              "src": "971:36:0"
             },
             "returnParameters": {
               "id": 92,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1060:0:0"
+              "src": "1067:0:0"
             },
             "scope": 138,
-            "src": "945:253:0",
+            "src": "952:253:0",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
@@ -3079,7 +3081,7 @@
             "body": {
               "id": 136,
               "nodeType": "Block",
-              "src": "1336:207:0",
+              "src": "1343:207:0",
               "statements": [
                 {
                   "expression": {
@@ -3102,7 +3104,7 @@
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 46,
-                              "src": "1367:12:0",
+                              "src": "1374:12:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_Observation_$9_storage_$",
                                 "typeString": "mapping(bytes32 => struct IOracle.Observation storage ref)"
@@ -3115,7 +3117,7 @@
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 108,
-                              "src": "1380:4:0",
+                              "src": "1387:4:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_bytes32",
                                 "typeString": "bytes32"
@@ -3126,7 +3128,7 @@
                             "isPure": false,
                             "lValueRequested": false,
                             "nodeType": "IndexAccess",
-                            "src": "1367:18:0",
+                            "src": "1374:18:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_struct$_Observation_$9_storage",
                               "typeString": "struct IOracle.Observation storage ref"
@@ -3140,7 +3142,7 @@
                           "memberName": "timestamp",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": 6,
-                          "src": "1367:28:0",
+                          "src": "1374:28:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -3157,14 +3159,14 @@
                           "kind": "number",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "1399:1:0",
+                          "src": "1406:1:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_rational_0_by_1",
                             "typeString": "int_const 0"
                           },
                           "value": "0"
                         },
-                        "src": "1367:33:0",
+                        "src": "1374:33:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -3179,7 +3181,7 @@
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "1414:40:0",
+                        "src": "1421:40:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_2d0663de7e0af5a64c459eb3bb4926a4b1f787ab428383285f89f8dbdf620cc7",
                           "typeString": "literal_string \"data with the given key does not exist\""
@@ -3206,7 +3208,7 @@
                         4294967278
                       ],
                       "referencedDeclaration": 4294967278,
-                      "src": "1346:7:0",
+                      "src": "1353:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
@@ -3220,7 +3222,7 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1346:118:0",
+                    "src": "1353:118:0",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
@@ -3229,7 +3231,7 @@
                   },
                   "id": 125,
                   "nodeType": "ExpressionStatement",
-                  "src": "1346:118:0"
+                  "src": "1353:118:0"
                 },
                 {
                   "expression": {
@@ -3242,7 +3244,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 46,
-                            "src": "1482:12:0",
+                            "src": "1489:12:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_Observation_$9_storage_$",
                               "typeString": "mapping(bytes32 => struct IOracle.Observation storage ref)"
@@ -3255,7 +3257,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 108,
-                            "src": "1495:4:0",
+                            "src": "1502:4:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
                               "typeString": "bytes32"
@@ -3266,7 +3268,7 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "nodeType": "IndexAccess",
-                          "src": "1482:18:0",
+                          "src": "1489:18:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Observation_$9_storage",
                             "typeString": "struct IOracle.Observation storage ref"
@@ -3280,7 +3282,7 @@
                         "memberName": "timestamp",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": 6,
-                        "src": "1482:28:0",
+                        "src": "1489:28:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -3294,7 +3296,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 46,
-                            "src": "1512:12:0",
+                            "src": "1519:12:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_Observation_$9_storage_$",
                               "typeString": "mapping(bytes32 => struct IOracle.Observation storage ref)"
@@ -3307,7 +3309,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 108,
-                            "src": "1525:4:0",
+                            "src": "1532:4:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
                               "typeString": "bytes32"
@@ -3318,7 +3320,7 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "nodeType": "IndexAccess",
-                          "src": "1512:18:0",
+                          "src": "1519:18:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Observation_$9_storage",
                             "typeString": "struct IOracle.Observation storage ref"
@@ -3332,7 +3334,7 @@
                         "memberName": "data",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": 8,
-                        "src": "1512:23:0",
+                        "src": "1519:23:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -3346,7 +3348,7 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "TupleExpression",
-                    "src": "1481:55:0",
+                    "src": "1488:55:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$_t_uint256_$_t_uint256_$",
                       "typeString": "tuple(uint256,uint256)"
@@ -3355,7 +3357,7 @@
                   "functionReturnParameters": 115,
                   "id": 135,
                   "nodeType": "Return",
-                  "src": "1474:62:0"
+                  "src": "1481:62:0"
                 }
               ]
             },
@@ -3365,13 +3367,13 @@
             "kind": "function",
             "modifiers": [],
             "name": "getData",
-            "nameLocation": "1213:7:0",
+            "nameLocation": "1220:7:0",
             "nodeType": "FunctionDefinition",
             "overrides": {
               "id": 110,
               "nodeType": "OverrideSpecifier",
               "overrides": [],
-              "src": "1273:8:0"
+              "src": "1280:8:0"
             },
             "parameters": {
               "id": 109,
@@ -3382,10 +3384,10 @@
                   "id": 108,
                   "mutability": "mutable",
                   "name": "_key",
-                  "nameLocation": "1229:4:0",
+                  "nameLocation": "1236:4:0",
                   "nodeType": "VariableDeclaration",
                   "scope": 137,
-                  "src": "1221:12:0",
+                  "src": "1228:12:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3396,7 +3398,7 @@
                     "id": 107,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1221:7:0",
+                    "src": "1228:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -3405,7 +3407,7 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1220:14:0"
+              "src": "1227:14:0"
             },
             "returnParameters": {
               "id": 115,
@@ -3416,10 +3418,10 @@
                   "id": 112,
                   "mutability": "mutable",
                   "name": "timestamp",
-                  "nameLocation": "1307:9:0",
+                  "nameLocation": "1314:9:0",
                   "nodeType": "VariableDeclaration",
                   "scope": 137,
-                  "src": "1299:17:0",
+                  "src": "1306:17:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3430,7 +3432,7 @@
                     "id": 111,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1299:7:0",
+                    "src": "1306:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -3443,10 +3445,10 @@
                   "id": 114,
                   "mutability": "mutable",
                   "name": "data",
-                  "nameLocation": "1326:4:0",
+                  "nameLocation": "1333:4:0",
                   "nodeType": "VariableDeclaration",
                   "scope": 137,
-                  "src": "1318:12:0",
+                  "src": "1325:12:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3457,7 +3459,7 @@
                     "id": 113,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1318:7:0",
+                    "src": "1325:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -3466,21 +3468,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1298:33:0"
+              "src": "1305:33:0"
             },
             "scope": 138,
-            "src": "1204:339:0",
+            "src": "1211:339:0",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
         "scope": 139,
-        "src": "465:1080:0",
+        "src": "465:1087:0",
         "usedErrors": []
       }
     ],
-    "src": "0:1546:0"
+    "src": "0:1553:0"
   },
   "compiler": {
     "name": "solc",
@@ -3488,7 +3490,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.0",
-  "updatedAt": "2021-05-11T04:49:47.511Z",
+  "updatedAt": "2021-05-11T06:17:25.789Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
